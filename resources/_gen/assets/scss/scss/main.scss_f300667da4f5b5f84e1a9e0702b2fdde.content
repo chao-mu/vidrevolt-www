@@ -1,18 +1,21 @@
 body {
-  background-color: #333333;
-  color: #dddddd; }
+  background: linear-gradient(black, white);
+  background-repeat: no-repeat;
+  height: 100%; }
 
 .main {
   margin-top: 20px; }
 
-.brand-intro h1 {
-  font-size: 3em;
-  font-family: "Lucida Console", Monaco, monospace; }
-
-.brand-intro p {
-  font-size: 1.5em; }
-  .brand-intro p .tagline {
-    font-style: italic; }
-
-.demo {
+.splash {
   margin-top: 30px; }
+
+.brand-intro {
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace; }
+  .brand-intro h1 {
+    font-size: 4em;
+    font-weight: bold; }
+  .brand-intro p {
+    font-size: 1.5em; }
+    .brand-intro p .tagline {
+      font-style: italic; }
